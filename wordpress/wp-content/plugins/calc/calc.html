@@ -1,0 +1,66 @@
+
+<div>
+    <div>
+        <label>
+            Преподователь
+            <select id="teacher">
+                <option value="800">Носитель языка</option>
+                <option value="500">Русскоязычный</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <label>
+            Курс
+            <select id="course">
+                <option value="1">Школьный</option>
+                <option value="1.2">Взрослый</option>
+                <option value="1.8">Индивидуальный</option>
+                <option value="1.5">Корперативный</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <label>
+            Город
+            <select id="city">
+                <option value="1">Моска</option>
+                <option value="0.9">Санк-Петербунг</option>
+                <option value="0.8">Казань</option>
+                <option value="0.7">Челябинск</option>
+                <option value="0.6">ЕКБ</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <label>
+            Интенсивность
+            <select id="intensive">
+                <option value="36">36 часов</option>
+                <option value="72">72 часа</option>
+                <option value="128">128 часов</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <b>Итоговая цена:</b><span id="result"></span>
+    </div>
+</div>
+<script>
+    function calc(){
+        const teacher = parseFloat(document.querySelector('#teacher').value) ;
+        const course = parseFloat(document.querySelector('#course').value) ;
+        const city = parseFloat(document.querySelector('#city').value) ;
+        const intensive = parseFloat(document.querySelector('#intensive').value) ;
+
+        document.querySelector('#result').innerHTML = (teacher * course * city * intensive).toFixed(2) + 'рублей';
+    }
+
+    document.querySelector('#teacher').addEventListener('change',calc)
+    document.querySelector('#course').addEventListener('change',calc)
+    document.querySelector('#city').addEventListener('change',calc)
+    document.querySelector('#intensive').addEventListener('change',calc)
+
+
+    calc();
+</script>

@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 07.12.2021 20:48
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.3
+WORDPRESS:	5.8.2
+PHP INFO:	7.4.21 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1536M default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20211207_mirdetstva_fff0dcf0c58dfd0d2720_20211207204813_database.sql
+SQL FILE SIZE: 1.39MB (1453296)
+SQL FILE TIME: 2021-12-07 20:48:26
+SQL RUNTIME: 4.84 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  W:/domains/childhood/wordpress
+ARCHIVE FILE: 20211207_mirdetstva_fff0dcf0c58dfd0d2720_20211207204813_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	87.31MB
+STATS:	Dirs 504 | Files 3,929
+SQL ADDED: 20211207_mirdetstva_fff0dcf0c58dfd0d2720_20211207204813_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4433
+    [filename] => W:\domains\childhood\wordpress\wp-content\backups-dup-lite\tmp\20211207_mirdetstva_fff0dcf0c58dfd0d2720_20211207204813_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 4432
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 38.22MB
+ARCHIVE RUNTIME: 59.87 sec.
+MEMORY STACK: 8MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip W:/domains/childhood/wordpress/wp-content/backups-dup-lite/tmp/20211207_mirdetstva_fff0dcf0c58dfd0d2720_20211207204813_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.39MB
+INSTALLER FILE: 64.26KB
+ARCHIVE FILE: 39.21MB 
+EXPECTED FILE/DIRECTORY COUNT: 4,433
+ACTUAL FILE/DIRECTORY COUNT: 4,432
+ТЕСТ ЛОГИКИ АРХИВА: Пройден
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 95.03 sec.
+PEAK PHP MEMORY USED: 8MB
+DONE PROCESSING => 20211207_mirdetstva 07.12.2021 20:49
+

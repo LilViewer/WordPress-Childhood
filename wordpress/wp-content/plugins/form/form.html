@@ -1,0 +1,22 @@
+
+<form action="#" method="post" id="form">
+<!--        <form action="#" method="post" id="form">-->
+                <input type="text" name="name"  id="name" placeholder="ФИО" required pattern="^[А-Яа-яЁё\s]+$">
+                <input type="number" name="age" id="age" placeholder="Возрост" required>
+                <input type="email" name="Email" id="email"  placeholder="Email" required>
+                <input  type="tel" name="tel" id="tel" placeholder="Телефон" required minlength="11" pattern="[0-9]{11,17}">
+                <label>
+                    Курс
+                    <select id="course" required>
+                        <option value="Школьный">Школьный</option>
+                        <option value="Взрослый">Взрослый</option>
+                        <option value="Индивидуальный">Индивидуальный</option>
+                        <option value="Корперативный">Корперативный</option>
+                    </select>
+                </label>
+
+<!--        </form>-->
+        <div>
+           <span id="result"></span>
+        </div>
+
